@@ -48,7 +48,7 @@ Take note of the empty array after `"myApp"`, this is what tells Angular we are 
 ```js
 angular.module("myApp").controller("friendCtrl", function( $scope ) {
 
-}
+})
 ```
 
 As you can see, we did not use `angular.module("myApp", [])` but instead `angular.module("myApp")`. Now that we have our Angular app and controller, let's link the Angular CDN, our app, and our controller to `index.html` under `<!-- your scripts here -->`.
